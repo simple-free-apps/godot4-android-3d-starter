@@ -1,0 +1,22 @@
+{
+  "en": {
+    "badge_mit": "MIT · GODOT 4 MOBILE 3D",
+    "title": "Godot 4 Android 3D Starter",
+    "subtitle": "Touch orbit, pinch zoom, procedural PBR stage & EN/AR RTL",
+    "hint_gesture": "Drag to orbit · Pinch or scroll to zoom",
+    "btn_pulse": "Pulse Orbit",
+    "btn_reset": "Reset Camera",
+    "btn_lang": "العربية",
+    "status_pulses": "Pulses triggered: %d"
+  },
+  "ar": {
+    "badge_mit": "MIT · قالب أندرويد 3D بـ Godot 4",
+    "title": "قالب Godot 4 ثلاثي الأبعاد للأندرويد",
+    "subtitle": "دوران باللمس وتكبير بالقرص ومشهد PBR إجرائي وتعريب RTL",
+    "hint_gesture": "اسحب للتدوير · اقرص أو مرّر للتكبير",
+    "btn_pulse": "نبضة دوران",
+    "btn_reset": "إعادة الكاميرا",
+    "btn_lang": "English",
+    "status_pulses": "عدد النبضات: %d"
+  }
+}

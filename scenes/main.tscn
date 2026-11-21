@@ -1,0 +1,135 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/touch_orbit_camera.gd" id="2_cam"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1"]
+sky_top_color = Color(0.055, 0.09, 0.16, 1)
+sky_horizon_color = Color(0.11, 0.17, 0.27, 1)
+ground_bottom_color = Color(0.03, 0.045, 0.08, 1)
+ground_horizon_color = Color(0.08, 0.12, 0.2, 1)
+
+[sub_resource type="Sky" id="Sky_1"]
+sky_material = SubResource("ProceduralSkyMaterial_1")
+
+[sub_resource type="Environment" id="Environment_1"]
+background_mode = 2
+sky = SubResource("Sky_1")
+ambient_light_source = 3
+ambient_light_energy = 0.6
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_main")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_1")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.84, -0.36, 0.4, 0, 0.74, 0.67, -0.54, -0.56, 0.62, 4, 6, 4)
+light_energy = 1.4
+
+[node name="TouchOrbitCamera" type="Node3D" parent="."]
+script = ExtResource("2_cam")
+
+[node name="Camera3D" type="Camera3D" parent="TouchOrbitCamera"]
+fov = 52.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HudRoot" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TopBar" type="HBoxContainer" parent="CanvasLayer/HudRoot"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 24.0
+offset_top = 48.0
+offset_right = -24.0
+offset_bottom = 104.0
+grow_horizontal = 2
+
+[node name="BadgeLabel" type="Label" parent="CanvasLayer/HudRoot/TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.624, 0.941, 0.808, 1)
+theme_override_font_sizes/font_size = 20
+text = "badge_mit"
+
+[node name="LangButton" type="Button" parent="CanvasLayer/HudRoot/TopBar"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "btn_lang"
+
+[node name="HeaderBox" type="VBoxContainer" parent="CanvasLayer/HudRoot"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 24.0
+offset_top = 114.0
+offset_right = -24.0
+offset_bottom = 220.0
+grow_horizontal = 2
+
+[node name="TitleLabel" type="Label" parent="CanvasLayer/HudRoot/HeaderBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "title"
+
+[node name="SubtitleLabel" type="Label" parent="CanvasLayer/HudRoot/HeaderBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.75, 0.82, 0.91, 1)
+theme_override_font_sizes/font_size = 20
+text = "subtitle"
+autowrap_mode = 3
+
+[node name="BottomCard" type="PanelContainer" parent="CanvasLayer/HudRoot"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = -240.0
+offset_right = -24.0
+offset_bottom = -36.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/HudRoot/BottomCard"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="HintLabel" type="Label" parent="CanvasLayer/HudRoot/BottomCard/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.78, 0.84, 0.92, 1)
+theme_override_font_sizes/font_size = 20
+text = "hint_gesture"
+
+[node name="StatusLabel" type="Label" parent="CanvasLayer/HudRoot/BottomCard/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.74, 0.38, 1)
+theme_override_font_sizes/font_size = 22
+text = "status_pulses"
+
+[node name="Actions" type="HBoxContainer" parent="CanvasLayer/HudRoot/BottomCard/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="PulseButton" type="Button" parent="CanvasLayer/HudRoot/BottomCard/VBox/Actions"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 24
+text = "btn_pulse"
+
+[node name="ResetButton" type="Button" parent="CanvasLayer/HudRoot/BottomCard/VBox/Actions"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 24
+text = "btn_reset"
