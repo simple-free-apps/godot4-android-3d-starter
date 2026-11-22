@@ -28,15 +28,15 @@ Download the prebuilt debug APK from **[Releases](https://github.com/simple-free
 
 ---
 
-## Full Commercial Godot 4 Android 3D Games (Payhip & Codester)
+## Full Commercial Godot 4 Android 3D Games (Codester)
 
 If you want complete multi-level, Google Play-ready Godot 4 Android 3D games with full level packs, audio, AdMob integration, and bilingual EN/AR UI:
 
 | Game | Highlights | Store Links |
 |---|---|---|
-| **Orvaleth: Clockwork Spires** | 60 3D clockwork contraption levels across 4 worlds + 5×5 level workshop + EN/AR | **[Payhip · $9 (Instant ZIP)](https://payhip.com/b/hWmcv?utm_source=godot4-android-3d-starter&utm_medium=readme&utm_campaign=orvaleth)** · [Codester · $14](https://www.codester.com/items/76144/orvaleth-godot-3d-clockwork-puzzle-game?ref=Gr8Man) · [Google Play Demo](https://play.google.com/store/apps/details?id=com.valkora.serenth.orvaleth) |
-| **Veyravel: Rift Courier** | 3D Android hovercraft action roguelite across 36 floating sectors + upgrades | **[Payhip · $9 (Instant ZIP)](https://payhip.com/b/Jv6fL?utm_source=godot4-android-3d-starter&utm_medium=readme&utm_campaign=veyravel)** · [Codester · $14](https://www.codester.com/items/76079/veyravel-3d-android-action-game-godot?ref=Gr8Man) |
-| **Full Gr8 Studio Catalog** | 10 Android & Godot source kits, live browser puzzle demos & $45 Play publishing assistance | **[simple-free-apps.github.io](https://simple-free-apps.github.io/?utm_source=godot4-android-3d-starter&utm_medium=readme&utm_campaign=catalog)** |
+| **Orvaleth: Clockwork Spires** | 60 3D clockwork contraption levels across 4 worlds + 5×5 level workshop + EN/AR | **[Codester · $14](https://www.codester.com/items/76144/orvaleth-godot-3d-clockwork-puzzle-game?ref=Gr8Man)** · [Google Play Demo](https://play.google.com/store/apps/details?id=com.valkora.serenth.orvaleth) |
+| **Veyravel: Rift Courier** | 3D Android hovercraft action roguelite across 36 floating sectors + upgrades | **[Codester · $14](https://www.codester.com/items/76079/veyravel-3d-android-action-game-godot?ref=Gr8Man)** |
+| **Full Gr8 Studio Catalog** | 10 Android & Godot source kits & live browser puzzle demos | **[simple-free-apps.github.io](https://simple-free-apps.github.io/?utm_source=godot4-android-3d-starter&utm_medium=readme&utm_campaign=catalog)** |
 
 *Disclosure: Codester links include the publisher's `?ref=Gr8Man` referral code.*
 
