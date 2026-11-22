@@ -1,5 +1,7 @@
 # Godot 4 Android 3D Mobile Starter (MIT)
 
+![Godot 4 Android 3D Mobile Starter Preview](preview_16x9.png)
+
 A minimal, **MIT-licensed**, **Godot 4.7+** mobile 3D starter template demonstrating single-finger touch orbit, two-finger pinch zoom, procedural PBR meshes/materials (`Mobile` renderer + `ETC2/ASTC`), and bilingual **English & Arabic (RTL)** runtime localization — with zero external binary assets or plugins.
 
 ## What Is Included
@@ -36,7 +38,7 @@ If you want complete multi-level, Google Play-ready Godot 4 Android 3D games wit
 |---|---|---|
 | **Orvaleth: Clockwork Spires** | 60 3D clockwork contraption levels across 4 worlds + 5×5 level workshop + EN/AR | **[Codester · $14](https://www.codester.com/items/76144/orvaleth-godot-3d-clockwork-puzzle-game?ref=Gr8Man)** · [Google Play Demo](https://play.google.com/store/apps/details?id=com.valkora.serenth.orvaleth) |
 | **Veyravel: Rift Courier** | 3D Android hovercraft action roguelite across 36 floating sectors + upgrades | **[Codester · $14](https://www.codester.com/items/76079/veyravel-3d-android-action-game-godot?ref=Gr8Man)** |
-| **Full Gr8 Studio Catalog** | 10 Android & Godot source kits & live browser puzzle demos | **[simple-free-apps.github.io](https://simple-free-apps.github.io/?utm_source=godot4-android-3d-starter&utm_medium=readme&utm_campaign=catalog)** |
+| **Full Gr8 Studio Catalog** | 10 Android & Godot source kits & live browser puzzle demos | **[simple-free-apps.github.io](https://simple-free-apps.github.io/?utm_source=godot_assetlib&utm_medium=readme&utm_campaign=catalog)** |
 
 *Disclosure: Codester links include the publisher's `?ref=Gr8Man` referral code.*
 
