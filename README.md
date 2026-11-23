@@ -30,15 +30,15 @@ Download the prebuilt debug APK from **[Releases](https://github.com/simple-free
 
 ---
 
-## Full Commercial Godot 4 Android 3D Games (Codester)
+## Full Commercial Godot 4 Android 3D Games (Codester & SellAnyCode)
 
 If you want complete multi-level, Google Play-ready Godot 4 Android 3D games with full level packs, audio, AdMob integration, and bilingual EN/AR UI:
 
-| Game | Highlights | Store Links |
+| Game | Highlights | Store Links & Demos |
 |---|---|---|
-| **Orvaleth: Clockwork Spires** | 60 3D clockwork contraption levels across 4 worlds + 5×5 level workshop + EN/AR | **[Codester · $14](https://www.codester.com/items/76144/orvaleth-godot-3d-clockwork-puzzle-game?ref=Gr8Man)** · [Google Play Demo](https://play.google.com/store/apps/details?id=com.valkora.serenth.orvaleth) |
-| **Veyravel: Rift Courier** | 3D Android hovercraft action roguelite across 36 floating sectors + upgrades | **[Codester · $14](https://www.codester.com/items/76079/veyravel-3d-android-action-game-godot?ref=Gr8Man)** |
-| **Full Gr8 Studio Catalog** | 10 Android & Godot source kits & live browser puzzle demos | **[simple-free-apps.github.io](https://simple-free-apps.github.io/?utm_source=godot_assetlib&utm_medium=readme&utm_campaign=catalog)** |
+| **Orvaleth: Clockwork Spires** | 60 3D clockwork contraption levels across 4 worlds + 5×5 level workshop + EN/AR | **[Codester · $14](https://www.codester.com/items/76144/orvaleth-godot-3d-clockwork-puzzle-game?ref=Gr8Man)** · **[SellAnyCode · $20](https://www.sellanycode.com/item.php?id=28633)** · [Google Play Demo](https://play.google.com/store/apps/details?id=com.valkora.serenth.orvaleth) · [16:9 Video](https://www.youtube.com/watch?v=um0hAMs7dpY) |
+| **Veyravel: Rift Courier** | 3D Android hovercraft action roguelite across 36 floating sectors + upgrades | **[Codester · $14](https://www.codester.com/items/76079/veyravel-3d-android-action-game-godot?ref=Gr8Man)** · **[SellAnyCode · $20](https://www.sellanycode.com/item.php?id=28634)** · [16:9 Video](https://www.youtube.com/watch?v=i2OG4xjzQNc) |
+| **10 Source Kits Matrix** | Side-by-side comparison, buyer FAQ & 8 live Google Play builds | **[Source Kits Matrix](https://simple-free-apps.github.io/source-kits/?utm_source=godot4-starter&utm_medium=readme&utm_campaign=matrix)** · **[19 Apps on Google Play](https://play.google.com/store/apps/dev?id=7078150569870376778)** |
 
 *Disclosure: Codester links include the publisher's `?ref=Gr8Man` referral code.*
 
